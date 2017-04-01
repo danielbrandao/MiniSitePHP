@@ -8,7 +8,7 @@
     // Executando query e retornando valores da tabela "faleconosco"
     $query = mysqli_query($conexao, "SELECT * FROM faleconosco");
 
-    // Litando valores retornados da tabela "faleconosco"
+    // Listando valores retornados da tabela "faleconosco"
     while($tabela = mysqli_fetch_array($query)){
         
         echo $tabela['nome']. "<br>";
